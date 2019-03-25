@@ -1,6 +1,6 @@
 require './immediate_value'
 require './call_operator'
-require './add_operator'
+require './operators/add_operator'
 
 class Engine
   attr_accessor :operators
