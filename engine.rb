@@ -1,13 +1,15 @@
 require './expressions/immediate_value'
 require './expressions/call_operator'
 require './operators/add_operator'
+require './operators/subtract_operator'
 
 class Engine
   attr_accessor :operators
 
   def initialize
     self.operators = {
-      '+' => AddOperator.new
+      '+' => AddOperator.new,
+      '-' => SubtractOperator.new
     }
   end
 
