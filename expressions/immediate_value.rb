@@ -1,4 +1,4 @@
-require './expression'
+require_relative './expression'
 
 class ImmediateValue < Expression
   attr_accessor :value

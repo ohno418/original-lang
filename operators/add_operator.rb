@@ -1,4 +1,4 @@
-require './operator'
+require_relative './operator'
 
 class AddOperator < Operator
   def call(args)

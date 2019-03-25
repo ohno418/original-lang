@@ -1,5 +1,5 @@
-require './immediate_value'
-require './call_operator'
+require './expressions/immediate_value'
+require './expressions/call_operator'
 require './operators/add_operator'
 
 class Engine
